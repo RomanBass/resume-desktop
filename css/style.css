@@ -1,0 +1,27 @@
+main {
+  font-family: "PlayfairDisplay-Black";
+}
+
+@font-face {
+	font-family: "PTSans-Narrow";
+	src: url("../font/PTSans-Narrow.woff2") format("woff2"),
+		url("../font/PTSans-Narrow.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "PTSans-Narrow";
+	src: url("../font/PTSans-NarrowBold.woff2") format("woff2"),
+		url("../font/PTSans-NarrowBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "PlayfairDisplay-Black";
+	src: url("../font/PlayfairDisplay-Black.woff2") format("woff2"),
+		url("../font/PlayfairDisplay-Black.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
