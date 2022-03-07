@@ -6,15 +6,33 @@
 	--special-green: #0699A6;
 }
 
-main {
+body {
+  min-height: 100%;
+	display: grid;
+	grid-template-rows: min-content 1fr min-content;
+	position: relative;
+	min-width: 1440px;
+	margin: 0;
+	padding: 0;
+  font-family: "PTSans-Narrow", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+h1 {
   font-family: "PlayfairDisplay-Black", "Arial", sans-serif;
+  font-size: 100px;
+  line-height: 112px;
+  letter-spacing: -2.17241px;
 }
 
 @font-face {
 	font-family: "PTSans-Narrow";
 	src: url("../font/PTSans-Narrow.woff2") format("woff2"),
 		url("../font/PTSans-Narrow.woff") format("woff");
-	font-weight: 300;
+	font-weight: 400;
 	font-style: normal;
 }
 
@@ -30,6 +48,6 @@ main {
 	font-family: "PlayfairDisplay-Black";
 	src: url("../font/PlayfairDisplay-Black.woff2") format("woff2"),
 		url("../font/PlayfairDisplay-Black.woff") format("woff");
-	font-weight: 300;
+	font-weight: 900;
 	font-style: normal;
 }
