@@ -1,3 +1,11 @@
+:root {
+	--basic-black: #000000;
+	--basic-white: #ffffff;
+  --special-white: #E5E5E5;
+  --special-bage: #9E8C6C;
+	--special-green: #0699A6;
+}
+
 main {
   font-family: "PlayfairDisplay-Black", "Arial", sans-serif;
 }
