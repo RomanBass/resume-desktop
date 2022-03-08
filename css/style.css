@@ -55,6 +55,10 @@ h2 {
   background-color: var(--special-green);
 }
 
+.header__menu p {
+  color: navajowhite;
+}
+
 @font-face {
 	font-family: "PTSans-Narrow";
 	src: url("../font/PTSans-Narrow.woff2") format("woff2"),
