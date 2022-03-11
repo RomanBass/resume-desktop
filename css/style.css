@@ -2,7 +2,7 @@
 	--basic-black: #000000;
 	--basic-white: #ffffff;
   --special-white: #E5E5E5;
-  --special-bage: #9E8C6C;
+  --special-bage: #f5f4f0;
   --special-white-bage: navajowhite;
 	--special-green: #0699A6;
 }
@@ -58,6 +58,33 @@ h2 {
 
 .menu p {
   color: var(--special-white-bage);
+}
+
+.header__info {
+  display: flex;
+  height: 687px;
+  outline-offset: 1px;
+  background-color: var(--special-bage);
+  padding-top: 165px;
+}
+
+.info__photo {
+  padding-left: 165px;
+  padding-right: 125px;
+}
+
+.text__pdf-link {
+  display: block;
+  height: 43px;
+  width: 225px;
+  text-align: center;
+  padding-top: 17px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  background-color: var(--special-green);
+  text-transform: uppercase;
 }
 
 @font-face {
