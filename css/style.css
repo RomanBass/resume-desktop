@@ -55,6 +55,7 @@ h4 {
   font-size: 66px;
   line-height: 82px;
   letter-spacing: -1.13793px;
+  text-align: center;
 }
 
 .menu {
@@ -106,6 +107,17 @@ h4 {
   font-weight: 700;
   background-color: var(--special-green);
   text-transform: uppercase;
+}
+
+footer {
+  height: 470px;
+  background-color: var(--special-lite-bage);
+}
+
+.footer__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @font-face {
