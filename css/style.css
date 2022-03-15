@@ -120,6 +120,24 @@ main {
   background-color:gainsboro;
 }
 
+.about-me__data-list {
+  font-size: 20px;
+}
+
+.work-experience__title {
+  letter-spacing: 1px;
+}
+
+.experience__work-experience p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.experience__work-experience ul {
+  font-size: 20px;
+}
+
 .skills {
   background-color: aquamarine;
 }
