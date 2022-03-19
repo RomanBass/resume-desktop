@@ -124,11 +124,13 @@ main {
   font-size: 20px;
 }
 
-.work-experience__title {
+.work-experience__title,
+.education__title {
   letter-spacing: 1px;
 }
 
-.experience__work-experience p {
+.experience__work-experience p,
+.experience__education p {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 20px;
