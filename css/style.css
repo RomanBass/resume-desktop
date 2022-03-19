@@ -132,7 +132,8 @@ main {
 }
 
 .work__work-place p,
-.work__education p {
+.work__education p,
+.main__experience p {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 20px;
@@ -142,7 +143,7 @@ main {
   font-size: 20px;
 }
 
-.skills {
+.experience {
   width: 350px;
   margin-left: 165px;
   background-color: aquamarine;
