@@ -116,7 +116,9 @@ main {
   background-color: aliceblue;
 }
 
-.experience {
+.work {
+  width: 635px;
+  margin-right: 165px;
   background-color:gainsboro;
 }
 
@@ -124,23 +126,25 @@ main {
   font-size: 20px;
 }
 
-.work-experience__title,
+.work-place__title,
 .education__title {
   letter-spacing: 1px;
 }
 
-.experience__work-experience p,
-.experience__education p {
+.work__work-place p,
+.work__education p {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 20px;
 }
 
-.experience__work-experience ul {
+.work__work-place ul {
   font-size: 20px;
 }
 
 .skills {
+  width: 350px;
+  margin-left: 165px;
   background-color: aquamarine;
 }
 
@@ -150,6 +154,12 @@ main {
   font-weight: 700;
   color: var(--special-green);
   text-transform: uppercase;
+}
+
+.title-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
