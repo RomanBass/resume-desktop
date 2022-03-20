@@ -163,6 +163,14 @@ main {
   align-items: center;
 }
 
+.broadcasters p {
+  font-weight: 700;
+}
+
+.broadcasters p span {
+  font-weight: 400;
+}
+
 footer {
   height: 470px;
   background-color: var(--special-lite-bage);
