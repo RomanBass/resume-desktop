@@ -80,8 +80,8 @@ h4 {
 
 .header__info {
   display: flex;
-  height: 687px;
-  background-color: var(--special-lite-bage);
+  height: 570px;
+  background-image: linear-gradient(-5.3deg, white 133px, #f5f4f0 134px);
   padding-top: 117px;
 }
 
