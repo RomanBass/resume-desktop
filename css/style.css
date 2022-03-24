@@ -58,6 +58,12 @@ h4 {
   text-align: center;
 }
 
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -126,6 +132,7 @@ main {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  padding-top: 63px;
   background-color: aliceblue;
 }
 
@@ -135,8 +142,37 @@ main {
   background-color:gainsboro;
 }
 
+.about-me__title {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 0pt;
+}
+
 .about-me__data-list {
+  margin-top: 20px;
   font-size: 20px;
+}
+
+.about-me__data-list li{
+  position: relative;
+  margin-left: 30px;
+}
+
+.about-me__data-list li::before{
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius:50%;
+  background-color: var(--basic-black);
+  top: 15px;
+  left: -17px;
+
+
+}
+
+.work__work-place {
+  margin-top: 155px;
 }
 
 .work-place__title,
