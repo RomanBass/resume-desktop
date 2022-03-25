@@ -167,8 +167,6 @@ main {
   background-color: var(--basic-black);
   top: 15px;
   left: -17px;
-
-
 }
 
 .work__work-place {
@@ -196,10 +194,42 @@ main {
   font-size: 20px;
 }
 
+.work__work-place ul li{
+  position: relative;
+  margin-left: 30px;
+}
+
+.work__work-place ul li::before{
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius:50%;
+  background-color: var(--basic-black);
+  top: 15px;
+  left: -17px;
+}
+
+.work-place__title-time:not(:first-of-type){
+  margin-top: 77px;
+}
+
 .experience {
   width: 350px;
   margin-left: 165px;
   background-color: aquamarine;
+}
+
+.work__education {
+  margin-top: 142px;
+}
+
+.education__big-title {
+  margin-bottom: 33px;
+}
+
+.education .education__specialization {
+  margin-top: 32px;
 }
 
 .skills__manufacturers a {
@@ -228,7 +258,7 @@ main {
   font-weight: 700;
 }
 
-.work-place__duty-1 {
+.work-place__position-1 {
   line-height: 30px;
 }
 
