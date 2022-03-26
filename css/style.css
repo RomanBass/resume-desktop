@@ -170,7 +170,17 @@ main {
 }
 
 .work__work-place {
+  position: relative;
   margin-top: 155px;
+}
+
+.work-place::before {
+  position: absolute;
+  content: "";
+  width: 71px;
+  height: 10px;
+  background: var(--special-green);
+  top: -75px;
 }
 
 .company-name,
@@ -221,7 +231,17 @@ main {
 }
 
 .work__education {
+  position: relative;
   margin-top: 142px;
+}
+
+.education::before {
+  position: absolute;
+  content: "";
+  width: 71px;
+  height: 10px;
+  background: var(--special-green);
+  top: -79px;
 }
 
 .education__big-title {
@@ -230,6 +250,14 @@ main {
 
 .education .education__specialization {
   margin-top: 32px;
+}
+
+.skills {
+  padding-top: 11px;
+}
+
+.skills__title {
+  margin-bottom: 8px;
 }
 
 .skills__manufacturers a {
