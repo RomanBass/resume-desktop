@@ -260,12 +260,40 @@ main {
   margin-bottom: 8px;
 }
 
-.skills__manufacturers a {
+.experience__certificates {
+  margin-top: 100px;
+}
+
+.sertificates__title {
+  margin-bottom: 10px;
+}
+
+.experience__broadcasters {
+  margin-top: 97px;
+}
+
+.broadcasters__title {
+  margin-bottom: 9px;
+}
+
+.experience__manufacturers {
+  margin-top: 102px;
+}
+
+.experience__manufacturers a {
   font-size: 20px;
   line-height: 34px;
   font-weight: 700;
   color: var(--special-green);
   text-transform: uppercase;
+}
+
+.experience__manufacturers ul li{
+ height: 34px;
+}
+
+.manufacturers__title {
+  margin-bottom: 9px;
 }
 
 .title-time {
