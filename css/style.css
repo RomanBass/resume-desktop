@@ -139,7 +139,7 @@ main {
 .work {
   width: 635px;
   margin-right: 165px;
-  background-color:gainsboro;
+  background-color:aliceblue;
 }
 
 .about-me__title {
@@ -227,7 +227,7 @@ main {
 .experience {
   width: 350px;
   margin-left: 165px;
-  background-color: aquamarine;
+  background-color: aliceblue;
 }
 
 .work__education {
