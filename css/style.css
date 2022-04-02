@@ -133,13 +133,13 @@ main {
   justify-content: space-between;
   flex-direction: row-reverse;
   padding-top: 63px;
-  background-color: aliceblue;
+  background-color: var(--basic-white);
 }
 
 .work {
   width: 635px;
   margin-right: 165px;
-  background-color:aliceblue;
+  background-color:var(--basic-white);
 }
 
 .about-me__title {
@@ -227,7 +227,7 @@ main {
 .experience {
   width: 350px;
   margin-left: 165px;
-  background-color: aliceblue;
+  background-color: var(--basic-white);
 }
 
 .work__education {
@@ -323,14 +323,24 @@ main {
 }
 
 footer {
-  height: 470px;
-  background-color: var(--special-lite-bage);
+  margin-top: 17px;
+  padding-top: 69px;
+  background-image: linear-gradient(-5.3deg, #f5f4f0 427px, white 0);
+}
+
+.footer__title {
+  margin-bottom: 0;
 }
 
 .footer__image {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transform: scale(0.8, 0.8);
+}
+
+.footer__menu {
+  margin-top: 9px;
 }
 
 
