@@ -190,7 +190,9 @@ main {
 
 .work__work-place p,
 .work__education p,
-.main__experience p {
+.main__experience p,
+.projects p,
+.certificates p {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 20px;
@@ -341,6 +343,16 @@ footer {
 
 .footer__menu {
   margin-top: 9px;
+}
+
+.main__projects {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main__certificates {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
