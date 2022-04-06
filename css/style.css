@@ -355,6 +355,11 @@ footer {
   margin-right: auto;
 }
 
+.main__statistic {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 @font-face {
 	font-family: "PTSans-Narrow";
