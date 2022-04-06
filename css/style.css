@@ -348,6 +348,7 @@ footer {
 .main__projects {
   margin-left: auto;
   margin-right: auto;
+  background-color: #E5E5E5;
 }
 
 .main__certificates {
@@ -358,6 +359,33 @@ footer {
 .main__statistic {
   margin-left: auto;
   margin-right: auto;
+}
+
+.projects__broadcaster {
+  margin-top: 50px;
+}
+
+.projects__title {
+  text-align: center;
+}
+
+.broadcaster__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.info__project-description {
+  width: 100%;
+}
+
+.progect-object {
+  font-weight: 700;
+}
+
+.broadcaster__info .project-time {
+  font-size: 18px;
 }
 
 
