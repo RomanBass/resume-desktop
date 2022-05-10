@@ -136,6 +136,14 @@ main {
   background-color: var(--basic-white);
 }
 
+.main__facts {
+  width: 100%;
+}
+
+.facts__title {
+  text-align: center;
+}
+
 .work {
   width: 635px;
   margin-right: 165px;
