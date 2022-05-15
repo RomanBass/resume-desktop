@@ -92,7 +92,26 @@ ul{
 }
 
 .projects-link {
-  padding-left: 40px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.projects-link--index {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(81, 184, 193);
+  transition: all 0.4s ease;
+}
+
+.projects-link--index:hover {
+  color:#0699A6;
+  background-color: #f5f4f0;
+  transition: all 0.4s ease;
 }
 
 .info__photo-wrapper {
@@ -129,6 +148,14 @@ ul{
   font-weight: 700;
   background-color: var(--special-green);
   text-transform: uppercase;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+.text__pdf-link:hover {
+  background-color: #51b8c1;
+  color: #000000;
+  transition: all 0.4s ease;
 }
 
 main {
@@ -299,6 +326,12 @@ main {
   font-weight: 700;
   color: var(--special-green);
   text-transform: uppercase;
+  transition: all 0.4s ease;
+}
+
+.experience__manufacturers a:hover {
+  opacity: 0.3;
+  transition: all 0.3s ease;
 }
 
 .main__certificates a {
