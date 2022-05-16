@@ -98,7 +98,8 @@ ul{
   padding-right: 20px;
 }
 
-.projects-link--index {
+.projects-link--index,
+.main-link--work {
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -108,7 +109,8 @@ ul{
   transition: all 0.4s ease;
 }
 
-.projects-link--index:hover {
+.projects-link--index:hover,
+.main-link--work:hover {
   color:#0699A6;
   background-color: #f5f4f0;
   border-radius: 5px;
@@ -344,6 +346,12 @@ main {
   line-height: 34px;
   font-weight: 700;
   color: var(--special-green);
+  transition: all 0.4s ease;
+}
+
+.main__certificates a:hover {
+  opacity: 0.3;
+  transition: all 0.4s ease;
 }
 
 .experience__manufacturers ul li{
