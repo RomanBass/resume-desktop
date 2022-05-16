@@ -99,7 +99,9 @@ ul{
 }
 
 .projects-link--index,
-.main-link--work {
+.main-link--work,
+.main-link--project,
+.main-link--certificates {
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -110,7 +112,9 @@ ul{
 }
 
 .projects-link--index:hover,
-.main-link--work:hover {
+.main-link--work:hover,
+.main-link--project:hover,
+.main-link--certificates:hover {
   color:#0699A6;
   background-color: #f5f4f0;
   border-radius: 5px;
@@ -325,7 +329,8 @@ main {
 }
 
 .experience__manufacturers a,
-.experience__certificates a {
+.experience__certificates a,
+.main__certificates a {
   font-size: 20px;
   line-height: 34px;
   font-weight: 700;
@@ -335,10 +340,19 @@ main {
 }
 
 .experience__manufacturers a:hover,
-.experience__certificates a:hover {
+.experience__certificates a:hover,
+.main__certificates a:hover {
   opacity: 0.3;
   font-size: 26px;
   transition: all 0.3s ease;
+}
+
+.experience__certificates {
+  min-height: 282px;
+}
+
+.main__certificates {
+  min-height: 360px;
 }
 
 .main__certificates a {
