@@ -81,7 +81,7 @@ ul{
 }
 
 .menu p {
-  color: var(--special-white-bage);
+  color: var(--basic-white);
 }
 
 .header__info {
@@ -103,7 +103,7 @@ ul{
   padding-left: 20px;
   padding-bottom: 10px;
   padding-right: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: rgb(81, 184, 193);
   transition: all 0.4s ease;
 }
@@ -111,6 +111,7 @@ ul{
 .projects-link--index:hover {
   color:#0699A6;
   background-color: #f5f4f0;
+  border-radius: 5px;
   transition: all 0.4s ease;
 }
 
@@ -148,7 +149,7 @@ ul{
   font-weight: 700;
   background-color: var(--special-green);
   text-transform: uppercase;
-  border-radius: 10px;
+  border-radius: 15px;
   transition: all 0.4s ease;
 }
 
@@ -156,6 +157,7 @@ ul{
   background-color: #51b8c1;
   color: #000000;
   transition: all 0.4s ease;
+  border-radius: 5px;
 }
 
 main {
@@ -320,7 +322,8 @@ main {
   margin-top: 102px;
 }
 
-.experience__manufacturers a {
+.experience__manufacturers a,
+.experience__certificates a {
   font-size: 20px;
   line-height: 34px;
   font-weight: 700;
@@ -329,8 +332,10 @@ main {
   transition: all 0.4s ease;
 }
 
-.experience__manufacturers a:hover {
+.experience__manufacturers a:hover,
+.experience__certificates a:hover {
   opacity: 0.3;
+  font-size: 26px;
   transition: all 0.3s ease;
 }
 
