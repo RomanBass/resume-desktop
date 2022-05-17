@@ -121,6 +121,17 @@ ul{
   transition: all 0.4s ease;
 }
 
+.projects-link--index:focus,
+.main-link--work:focus,
+.main-link--project:focus,
+.main-link--certificates:focus {
+  color:#0699A6;
+  background-color: #f5f4f0;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+  outline: none;
+}
+
 .info__photo-wrapper {
   padding-left: 165px;
   padding-right: 125px;
@@ -164,6 +175,14 @@ ul{
   color: #000000;
   transition: all 0.4s ease;
   border-radius: 5px;
+}
+
+.text__pdf-link:focus {
+  background-color: #51b8c1;
+  color: #000000;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  outline: none;
 }
 
 main {
@@ -309,7 +328,7 @@ main {
 }
 
 .experience__certificates {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .sertificates__title {
@@ -317,7 +336,7 @@ main {
 }
 
 .experience__broadcasters {
-  margin-top: 97px;
+  margin-top: 60px;
 }
 
 .broadcasters__title {
@@ -325,14 +344,18 @@ main {
 }
 
 .experience__manufacturers {
-  margin-top: 102px;
+  margin-top: 60px;
+}
+
+.main__certificates p {
+  line-height: 36px;
 }
 
 .experience__manufacturers a,
 .experience__certificates a,
 .main__certificates a {
   font-size: 20px;
-  line-height: 34px;
+  line-height: 24px;
   font-weight: 700;
   color: var(--special-green);
   text-transform: uppercase;
@@ -343,29 +366,27 @@ main {
 .experience__certificates a:hover,
 .main__certificates a:hover {
   opacity: 0.3;
-  font-size: 26px;
+  font-size: 22px;
   transition: all 0.3s ease;
 }
 
-.experience__certificates {
-  min-height: 282px;
+.experience__manufacturers a:focus,
+.experience__certificates a:focus,
+.main__certificates a:focus {
+  opacity: 0.3;
+  font-size: 22px;
+  transition: all 0.3s ease;
+  outline: none;
 }
 
 .main__certificates {
   min-height: 360px;
+  min-width: 537px;
 }
 
-.main__certificates a {
-  font-size: 20px;
-  line-height: 34px;
-  font-weight: 700;
-  color: var(--special-green);
-  transition: all 0.4s ease;
-}
-
-.main__certificates a:hover {
-  opacity: 0.3;
-  transition: all 0.4s ease;
+.certificates--resume {
+  min-height: 360px;
+  min-width: 0;
 }
 
 .experience__manufacturers ul li{
