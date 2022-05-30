@@ -99,6 +99,9 @@ ul{
 }
 
 .projects-link--index,
+.projects-link-certificates,
+.certificates-link--index,
+.certificates-link--project,
 .main-link--work,
 .main-link--project,
 .main-link--certificates {
@@ -112,6 +115,9 @@ ul{
 }
 
 .projects-link--index:hover,
+.projects-link-certificates:hover,
+.certificates-link--index:hover,
+.certificates-link--project:hover,
 .main-link--work:hover,
 .main-link--project:hover,
 .main-link--certificates:hover {
@@ -122,6 +128,9 @@ ul{
 }
 
 .projects-link--index:focus,
+.projects-link-certificates:focus,
+.certificates-link--index:focus,
+.certificates-link--project:focus,
 .main-link--work:focus,
 .main-link--project:focus,
 .main-link--certificates:focus {
@@ -199,6 +208,21 @@ main {
 
 .facts__title {
   text-align: center;
+}
+
+.facts__video {
+  display:block;
+  margin: 0 auto;
+}
+
+.song-title {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.song-date {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .work {
@@ -485,7 +509,6 @@ footer {
 .broadcaster__info .project-time {
   font-size: 18px;
 }
-
 
 @font-face {
 	font-family: "PTSans-Narrow";
